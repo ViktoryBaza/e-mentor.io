@@ -1,0 +1,477 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+.list{
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+/* 
+body {
+    font-family: Montserrat;
+} */
+body {
+    background-color:#ffffff;
+    line-height: 1.5;
+}
+
+.weapper {
+    
+
+}
+a{
+    font-weight: 500;
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: 1px #FA9F42;
+}
+
+.header {
+    background: #10B582;
+    color: #FDFDFD;
+    height: 800px;
+    padding: 0px 100px;
+}
+.header-content {
+    display: flex;
+    flex-direction:column;
+    align-content: flex-end;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100px;
+    padding-top: 40px;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin: 0 auto;
+    height: 60px;
+    justify-content: center;
+}
+.nav__item {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.nav__link {
+    display: flex;
+    font-size: 16px;
+}
+.nav__link:hover {
+    text-decoration: e;
+}
+.header__block {
+    display: flex;
+    flex-direction: row;
+    
+}
+.header__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+.media {
+}
+.face {
+}
+.vk {
+}
+.insta {
+}
+.header__iconOne {
+}
+.header__textBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: center;
+}
+.header__textBlock__content{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;            /*  высоту обязательно нужно указать */
+    width: 542px;
+}
+.logo {
+}
+.header__logo {
+}
+.header__title {
+    font-size: 58px;
+}
+.header__text {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.button {
+    background: #FA9F42;
+    border-radius: 0px 20px;
+    width: 230px;
+    height: 56px;
+    color: rgb(255, 249, 249);
+    font-size: 16px;
+    padding: 20px 47px;
+}
+
+.button__header {
+    display: flex;
+    margin: 0px auto;
+}
+.header__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header__iconTwo {
+}
+.down {
+    transform: rotate(90deg);
+}
+
+.main {
+    background-color: #ffffff;
+    
+
+}
+.teachers {
+    height: 900px;
+    padding: 0px 100px;
+}
+.teachers__content {
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 100px 0px;
+    justify-content: space-between;
+}
+.colomn {
+    width: 250px;
+}
+.colomn__number {
+    color: #10B582;
+    font-size: 58px;
+}
+.colomn__text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #353A5A;
+}
+.teachers__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.teachers__info__text {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.teachers__info__text__title {
+    color: #353A5A;
+    font-weight: 500;
+    font-size: 58px;
+}
+.teachers__info__textContent {
+    font-weight: 400;
+    font-size: 16px;
+    color: #353A5A;
+    padding-bottom: 30px;
+}
+.button {
+}
+.button__teachers {
+    background-color: #10B582;
+}
+.teachers__info__img {
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.teacher__info__row1 {
+    display: flex;
+    flex-direction: row;
+    width: 570px;
+    justify-content: space-between;
+}
+.teacher__bio {
+    color: #353A5A;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.reacher__img {
+}
+.teacher__name {
+    width: 170px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.teacher__info__row2 {
+    display: flex;
+    flex-direction: row;
+    width: 570px;
+    justify-content: space-between;
+}
+
+.format {
+    color:#ffffff;
+    background-color: #10B582;
+    height: 600px;
+    padding: 0px 100px;
+}
+.format__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding-top: 150px;
+}
+.format__img {
+}
+.format__tectContent {
+    width: 500px;
+}
+.format__title {
+    font-size: 58px;
+    font-weight: 500;
+}
+.format__text {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.format__button {
+}
+.buttom {
+}
+
+
+.courses {
+    padding: 0 100px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.courses__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.courses__title {
+    font-size: 58px;
+    font-weight: 500;
+    color: #353A5A;
+    ;
+}
+.courses__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.button__courses {
+    margin: 0px auto;
+    background-color: #10B582;
+}
+
+.banner {
+    background-image: url("../img/banner.svg");
+    height: 578px;
+    display: flex;
+    justify-content: right;
+}
+.banner__content {
+    width: 500px;
+    margin: 120px 100px;
+}
+.banner__title {
+    font-weight: 500;
+    font-size: 58px;
+    color: #353A5A;
+}
+.banner__text {
+    color: #353A5A;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.banner__button {
+}
+.button {
+}
+
+.footer {
+    height: 300px;
+    /* padding: 0px 100px; */
+    padding-top: 30px;
+    color: #353A5A;
+    font-weight: 400;
+}
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.footer__up {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px  #353a5a69;
+    border-left: none;
+    border-right: none;
+    padding: 80px 100px;
+}
+.footer__row {
+    width: 270px;
+}
+
+.footer__row1__content {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.footer__media {
+}
+.footer__colomn1 {
+}
+.footer__title {
+    padding-bottom: 20px;
+}
+.chekList {
+}
+.list {
+    padding-bottom: 10px;
+}
+.footer__colomn2 {
+}
+.footer__colomn3 {
+}
+.footer__question {
+}
+.footer__question__content {
+}
+.footer__down {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+
+}
+.footer__down__left {
+}
+.footer__down__right {
+    display: flex;
+}
+.footer__down__polish {
+}
+.footer__down__ofeta {
+}
+
+.quote {
+    background: #F8F8F8;
+}
+.quote-content {
+}
+.quote-content-textContent {
+    display: flex;
+    flex-direction: row;
+}
+.quote-content-textContent__text {
+    font-weight: 400;
+    font-size: 36px;
+}
+.quote-content-textContent__signature {
+    font-weight: 300;
+    font-size: 14px;
+}
